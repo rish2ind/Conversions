@@ -13,7 +13,7 @@
 	<li><a href="Length.php">Converting Lengths</a></li>
 	<li><a href="Weight.php">Converting Weight</a></li>
 	<li><a href="Area.php">Converting Area</a></li>
-	<li><a href="#">Converting Speed</a></li>
+	<li><a href="Speed.php">Converting Speed</a></li>
 	<li><a href="temp.php">Temperature</a></li>
 	</ul>
 	</div>
