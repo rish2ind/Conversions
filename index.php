@@ -3,11 +3,12 @@
 <head>
 	<title>Conversions</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" type="text/css" href="Icons/convert.png">
 </head>
-<body>
+<body style="background-image: url(Icons/front.jpg); background-size: cover;">
 
 	<div class="select">
-	<h1>Choose the following</h1>
+	<h1 style="color: black;">Choose the following</h1>
 
 	<ul id="measurement_types">
 	<li><a href="Length.php">Converting Lengths</a></li>
