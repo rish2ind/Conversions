@@ -63,10 +63,11 @@ $to_value = '';
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Conversions</title>
+	<title>Convert Lengths</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" type="text/css" href="Icons/length.jpg">
 </head>
-<body>
+<body style="background-image: url(Icons/lengthback.jpg); background-size: cover;">
 	<div class="select">
 	<h1 style="text-align: center;">Converting Lengths</h1>
 
@@ -98,7 +99,9 @@ $to_value = '';
 	<input type="submit" name="submit" value="Submit">
 	</form>
 	<br>
+	<span id="link">
 	<a href="index.php">Return to main menu</a>
+	</span>
 	</div>
 </body>
 </html>
