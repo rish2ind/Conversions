@@ -77,10 +77,11 @@ $meter_value = '';
 <head>
 	<title>Convert Area</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" type="text/css" href="Icons/area.png">
 </head>
-<body>
+<body style="background-color: white;">
 	<div class="select">
-	<h1 style="text-align: center;">Converting Area</h1>
+	<h1 style="text-align: center; color: black;">Converting Area</h1>
 
 	<form action="" method="POST">
 		<div class="entry">
@@ -114,7 +115,9 @@ $meter_value = '';
 	<input type="submit" name="submit" value="Submit">
 	</form>
 	<br>
+	<span id="link">
 	<a href="index.php">Return to main menu</a>
+	</span>
 	</div>
 </body>
 </html>
