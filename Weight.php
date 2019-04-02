@@ -77,10 +77,11 @@ $to_value = '';
 <head>
 	<title>Convert Weight</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" type="text/css" href="Icons/weight.jpg">
 </head>
-<body>
+<body style="background-image: url(Icons/weightback.jpg); background-size: 700px 700px;">
 	<div class="select">
-	<h1 style="text-align: center;">Converting Weight</h1>
+	<h1 style="text-align: center; color: #5ef164;">Converting Weight</h1>
 
 	<form action="" method="POST">
 		<div class="entry">
@@ -113,8 +114,9 @@ $to_value = '';
 	</div>
 	<input type="submit" name="submit" value="Submit">
 	</form>
-	<br>
+	<br><span id="link">
 	<a href="index.php">Return to main menu</a>
+	</span>
 	</div>
 </body>
 </html>
