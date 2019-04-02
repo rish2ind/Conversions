@@ -10,8 +10,15 @@ body{
 }
 h1{
 	font: 30px Arial, "Helvetica Neue", Helvetica, sans-serif;
+	color: white;
 }
-
+ 
+#link a{
+	color: black;
+}
+#link a:hover{
+	color: red;
+}
 /* Menu Page */
 ul#measurement_types{
 	list-style-type: none;
